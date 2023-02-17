@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS -->
+    <!-- Favicom -->
+    <link type="image/png" sizes="32x32" rel="icon" href="icons8-monitor-32.png">
+    <!-- Favicom -->
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<!-- icons -->
+    <!-- Sweet Alert -->
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.min.css" rel="stylesheet"></link>
+    <!-- Sweet Alert -->
+    <link rel="stylesheet" href="style.css">
+    <title>Electronica Centro </title>
+</head>
+
+<body>
+
+    <div class="nav-contenedor">
+        <nav class="navbar">
+            <h2 class="navbar-logo">Electronica Centro</h1>
+                <h2 class="ver-carrito" id="verCarrito">🛒 <span id="cantidadCarrito" class="cantidad-carrito"></span></h2>
+        </nav>
+    </div>
+
+    <div class="hero">
+        <div class="hero-contenedor" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="900">
+            <h1>Electronica Centro</h1>
+            <p>El mejor lugar al alcance de un click!</p>
+        </div>
+    </div>
+
+    <div id="shopContent" class="shop-content"></div>
+
+    <div id="modal-container" class="modal-container"></div>
+
+
+    <div class="footer-basic">
+        <p class="footerText nombre">©Todos los derechos reservados</p>
+        <footer>
+            <div class="social">
+                <a href="https://github.com/aagelis"><i class="icon ion-social-github"></i></a>
+                <a href="https://www.linkedin.com/in/axel-agustin-gelis/"><i class="icon ion-social-linkedin"></i></a>
+            </div>
+            <p class="copyright">Axel A. Gelis Desarrollador Web</p>
+        </footer>
+    </div>
+
+
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!-- AOS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.1/dist/sweetalert2.all.min.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/carrito.js"></script>
+    
+</body>
+
+</html>
